@@ -1,7 +1,9 @@
-ang1=float(input("Enter the value of angle 1:"))
-ang2=float(input("Enter the value of angle 2:"))
-ang3=float(input("Enter the value of angle 3:"))
-if(ang1+ang2+ang3==180):
-    print("It is a valid triangle")
+ram=int(input("Enter the age of Ram:"))
+shyam=int(input("Enter the age of shyam:"))
+ajay=int(input("Enter the age of ajay:"))
+if(ram<shyam)and(ram<ajay):
+    print("Ram is youngest of three")
+elif(shyam<ram)and(shyam<ajay):
+    print("Shyam is youngest of three")    
 else:
-    print("It is not valid triangle")    
+    print("Ajay is youngest of three")    
